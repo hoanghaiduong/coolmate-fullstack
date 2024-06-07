@@ -36,49 +36,49 @@ https://github.com/microsoftarchive/redis/releases
 2. Move Backend and Config .env
    Copy file .env.example to new file .env
 
-```bash
+   ```bash
    copy .env.example .env
-```
+   ```
 
-Install dependencies
+   Install dependencies
 
-```bash
-composer install
-```
+   ```bash
+   composer install
+   ```
 
-Generate key app
+   Generate key app
 
-```bash
-    php artisan key:generate
-```
+   ```bash
+   php artisan key:generate
+   ```
 
-Generate jwt secret key
+   Generate jwt secret key
 
-```bash
-php artisan jwt:secret
-```
+   ```bash
+   php artisan jwt:secret
+   ```
 
 3. Move Frontend and Config .env
    Create file .env
 
-```bash
+   ```bash
        mkdir .env
-```
+   ```
 
-Write in file .env
+   Write in file .env
 
-```bash
-    NEXT_PUBLIC_API_ROOT=http://localhost:8000
-```
+   ```bash
+       NEXT_PUBLIC_API_ROOT=http://localhost:8000
+   ```
 
-Install dependencies
+   Install dependencies
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-Run application with development
+   Run application with development
 
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
