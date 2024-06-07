@@ -29,9 +29,9 @@ Welcom to CoolMate BY Maiyone
 0. Install Xampp on your system and import database if not exists
 1. Install Redis server on your system
 
-```bash
-https://github.com/microsoftarchive/redis/releases
-```
+   ```bash
+   https://github.com/microsoftarchive/redis/releases
+   ```
 
 2. Move Backend and Config .env
    Copy file .env.example to new file .env
@@ -62,13 +62,13 @@ https://github.com/microsoftarchive/redis/releases
    Create file .env
 
    ```bash
-       mkdir .env
+   mkdir .env
    ```
 
    Write in file .env
 
    ```bash
-       NEXT_PUBLIC_API_ROOT=http://localhost:8000
+   NEXT_PUBLIC_API_ROOT=http://localhost:8000
    ```
 
    Install dependencies
