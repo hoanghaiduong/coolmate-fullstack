@@ -34,6 +34,11 @@ Welcom to CoolMate BY Maiyone
    ```
 
 2. Move Backend and Config .env
+
+   ```bash
+   cd backend/
+   ```
+
    Copy file .env.example to new file .env
 
    ```bash
@@ -59,6 +64,13 @@ Welcom to CoolMate BY Maiyone
    ```
 
 3. Move Frontend and Config .env
+
+   Move Frontend
+
+   ```bash
+   cd frontend/
+   ```
+
    Create file .env
 
    ```bash
